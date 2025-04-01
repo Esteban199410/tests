@@ -1,6 +1,6 @@
 
 # Chemin de l'image
-$imagePath = $env:TEMP\1.png
+$imagePath = "$env:TEMP\1.png"
 
 # Vérifie si le fichier existe
 if (-Not (Test-Path $imagePath)) {
